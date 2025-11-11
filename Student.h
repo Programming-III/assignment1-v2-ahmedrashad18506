@@ -8,7 +8,13 @@
 
 
 
-
+class Student: public Person{
+    protected:
+    string major;
+    int yearLevel;
+    public:
+    void display(){}
+};
 
 
 
