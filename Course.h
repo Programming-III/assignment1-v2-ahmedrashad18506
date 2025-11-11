@@ -6,9 +6,19 @@
 using namespace std;
 //#write your code here
 
+class Course: public Instructor , public Student{
+    private:
+    string courseCode;
+    string courseName;
+    int maxStudents;
+    Student* students;
+    int currentStudents;
+    
+    public:
+    void addStudent(const Student& s){}
+    void displayCourseInfo(){}
 
-
-
+};
 
 
 
