@@ -40,8 +40,7 @@ Instructor :: display(){
 
 
 
-// ==================== Course Class Implementation ====================
-
+// ==================== Course Class Implementation ===================
 Course :: addStudent(const Student& s){
        s = Student* student;
     }
