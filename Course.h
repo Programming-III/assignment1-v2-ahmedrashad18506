@@ -15,6 +15,7 @@ class Course: public Instructor , public Student{
     int currentStudents;
     
     public:
+    Course(string cc, string cn, int max s, Student* s, int cS){}
     void addStudent(const Student& s){}
     void displayCourseInfo(){}
 
